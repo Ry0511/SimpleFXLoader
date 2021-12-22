@@ -34,9 +34,13 @@ public final class FXLoader {
      * @param <T> The Controller of the resource to load. This is the object
      * from {@link FXMLLoader#getController()}.
      * @return Newly loaded Parent fx root and controller.
-     * @throws IOException           If one occurs whilst loading the resource.
-     * @throws IllegalStateException If the detected number of resources to load
-     *                               is less than zero or greater than one.
+     * @throws IOException            If one occurs whilst loading the
+     *                                resource.
+     * @throws IllegalAccessException If a SecurityManager blocks access to the
+     *                                target resource.
+     * @throws IllegalStateException  If the detected number of resources to
+     *                                load is less than zero or greater than
+     *                                one.
      */
     public static <T> FXPackage<T> loadController(final Class<T> contClass)
             throws IOException,

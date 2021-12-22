@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactManager">
+    <artifact type="jar" name="SimpleFXLoader">
+      <output-path>$PROJECT_DIR$/out/artifacts/SimpleFXLoader</output-path>
+      <root id="archive" name="SimpleFXLoader.jar">
+        <element id="module-output" name="FX Scene Loader Utils" />
+      </root>
+    </artifact>
+  </component>
   <component name="CheckStyle-IDEA">
     <option name="configuration">
       <map>
@@ -19,6 +27,13 @@
     </profile>
     <version value="1.0" />
   </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/out/artifacts/SimpleFXLoader/javadoc" />
+    <option name="OPTION_SCOPE" value="package" />
+    <option name="OPTION_DOCUMENT_TAG_USE" value="true" />
+    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="true" />
+    <option name="OPTION_DOCUMENT_TAG_VERSION" value="true" />
+  </component>
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FX Scene Loader Utils.iml" filepath="$PROJECT_DIR$/FX Scene Loader Utils.iml" />
@@ -26,5 +41,8 @@
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
 </project>
